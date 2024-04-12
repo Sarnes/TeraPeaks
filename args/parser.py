@@ -1,4 +1,5 @@
 from datetime import datetime
+import os
 
 CATEGORIES = {
         "cellphones": 9355, 
@@ -31,13 +32,15 @@ class Checker:
         def __init__(self, 
                     search: str,
                     category: str, 
-                    post_status: str | None = None, 
-                    sorting_option: str | None = None, 
-                    sorting_order: str | None = None,
-                    day_range: str | int | None = None, 
-                    start_date: str | None = None, 
-                    end_date: str | None = None) -> None:
-            self.passed = self.check_args(search, category, post_status, sorting_option, sorting_order, day_range, start_date, end_date)
+                    post_status: str, 
+                    sorting_option: str, 
+                    sorting_order: str,
+                    day_range: str | int, 
+                    start_date: str | None, 
+                    end_date: str | None, 
+                    output_folder: str, 
+                    output_format: str) -> None:
+            self.passed = self.check_args(search, category, post_status, sorting_option, sorting_order, day_range, start_date, end_date, output_folder, output_format)
         
         def check_args(self, 
                     search: str,
@@ -47,16 +50,35 @@ class Checker:
                     sorting_order: str | None = None,
                     day_range: str | int | None = None, 
                     start_date: str | None = None, 
-                    end_date: str | None = None
+                    end_date: str | None = None,
+                    output_folder: str | None = None,
+                    output_format: str | None = None,
                     ):
             if not type(search) == str:
                 raise TypeError(f"Search paramter: {search} is not a string")
             if not post_status in ["SOLD", "ACTIVE"]:
-                raise ValueError(f"Post Status must be either be \'SOLD\' or \'ACTIVE\'\n{post_status} is not a valid value")
-            checks = [ self.check_category(category), self.check_sorting_option(post_status, sorting_option, sorting_order), self.check_day_range(day_range, start_date, end_date)]
+                raise ValueError(f"Post Status must be either be \'SOLD\' or \'ACTIVE\'\n{post_status} is not a valid value") 
+            if not output_format in ["JSON", "CSV"]:
+                raise ValueError("This tool only outputs JSON, or CSV formats. You can either not pass in the output format variable, or you can pass in \'CSV\'")
+            checks = [ self.check_category(category), self.check_sorting_option(post_status, sorting_option, sorting_order), self.check_day_range(day_range, start_date, end_date), self.check_path(output_folder)]
             if False in checks:
                 return False
             return True
+        
+        @staticmethod
+        def check_path(path):
+            if not os.path.exists(path):
+                raise ValueError("The path does not exist.")
+            
+            # Check if the path is a directory
+            if not os.path.isdir(path):
+                raise ValueError("The path is not a directory.")
+            
+            # Check if the program has write access to the directory
+            if not os.access(path, os.W_OK):
+                raise ValueError("The program does not have write access to the directory.")
+            
+            return True, "The directory is valid and accessible."
         
         def check_category(self, category: str) -> bool:
             possible_categories = list(CATEGORIES.keys())
@@ -67,9 +89,9 @@ class Checker:
             return True
         
         def check_sorting_option(self,  post_status: str, sorting_option: str, order: str) -> bool:
-            options = list(self.SORTING_OPTIONS.get(post_status).keys())
+            options = list(SORTING_OPTIONS.get(post_status).keys())
             if not sorting_option in options:
-                raise ValueError(f"The sorting option when in the {self.post_mode} mode, must be one of these options:\n{', '.join(options)}")
+                raise ValueError(f"The sorting option when in the {post_status} mode, must be one of these options:\n{', '.join(options)}")
             if not order in ["HL", "LH"]:
                 raise ValueError("Order Options must be either\n \'HL' for Highest to Lowest\n\'LH\' for Lowest To Highest")
             return True

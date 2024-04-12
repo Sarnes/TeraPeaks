@@ -2,6 +2,17 @@ import re
 import emoji
 import json
 
+
+class DataNotFound(Exception):
+    def __init__(self):
+        message = "No more data found for your search. The page you found is the last page of data what is available"
+        super().__init(message)
+        
+class NoDataFoundForQuery(Exception):
+    def __init__(self):
+        message = "No Data was found for your search"
+        super().__init__(message)
+
 class DataHandler:
     
     @staticmethod
@@ -75,7 +86,7 @@ class DataHandler:
         return parsed_data
     
         
-    def parse_data(self, post_mode, data: list):
+    def parse_data(self, post_mode: str, data: list):
         parsed_data = {}
         for json_data in data:
             data_type = json_data.get('__type')
@@ -88,9 +99,27 @@ class DataHandler:
                 elif post_mode == "ACTIVE":
                     if data_type == 'ActiveSearchResultsModule':
                         parsed_data['listings'] = self.ASRM_data(json_data)
-        return parsed_data         
+        return parsed_data   
+    
+    @staticmethod
+    def check_data(data: list):
+        if len(data) == 2: 
+            for module in data:
+                if module.get('__type') == "PageErrorModule":
+                    if re.findall(r'No\s\w{4,5}\sresults', module.get("messages")[0].get('accessibilityText')):
+                        raise DataNotFound
+        else:
+            for module in data:
+                module_type = module.get('__type')
+                if module_type == "SearchResultsModule" or module_type == 'ActiveSearchResultsModule':
+                    if module.get("results") is None:
+                        raise NoDataFoundForQuery
+        return True
+                    
+                    
         
-    def parse_response(self, response: str):
+    def parse_response(self, post_mode: str, response: str):
         json_objects =response.split('\n\n')
         parsed_objects = [json.loads(obj) for obj in json_objects if obj]
-        return self.parse_data(parsed_objects)
+        if self.check_data(parsed_objects):    
+            return self.parse_data(post_mode, parsed_objects)

@@ -1,0 +1,514 @@
+{
+    "product": {
+        "Avg sold price": "$539.99",
+        "Sold price range": "$0.99 \u2013 $7,680.00",
+        "Avg shipping": "$23.00",
+        "Free shipping": "64%",
+        "Total sold": "48,248",
+        "Sell-through": "62.22%",
+        "Total sellers": "9,149",
+        "Total item sales": "$26,053,437.52"
+    },
+    "listings": [
+        {
+            "title": "Apple Macbook Pro 13\" Laptop | UPGRADED i5 16GB RAM | 1TB HD | MacOS | WARRANTY",
+            "avgsalesprice": "$220.69",
+            "avgshipping": "$51.14",
+            "freeshipping": "95% Free shipping",
+            "itemssold": "253",
+            "totalsales": "$55,835.31",
+            "bids": "\u2013",
+            "datelastsold": "Apr 12, 2024"
+        },
+        {
+            "title": "APPLE 2019 Macbook Pro A2141 16\" I7-9750H@2.60GHz 16GB/512G Pro 5300M MVVL2LL/A",
+            "avgsalesprice": "$452.16",
+            "avgshipping": "$91.82",
+            "freeshipping": "96% Free shipping",
+            "itemssold": "434",
+            "totalsales": "$196,236.76",
+            "bids": "\u2013",
+            "datelastsold": "Apr 12, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro Mneh3ll/a 2022 Apple M2 Chip   10GPU/8CPU 13.3\" 8GB 256GB SSD",
+            "avgsalesprice": "$862.84",
+            "avgshipping": "$37.78",
+            "freeshipping": "95% Free shipping",
+            "itemssold": "146",
+            "totalsales": "$125,974.00",
+            "bids": "\u2013",
+            "datelastsold": "Apr 8, 2024"
+        },
+        {
+            "title": "Apple Macbook M1 Pro 16\" 2021 10-core CPU 16-core GPU 512GB SSD 16GB Ram Gray",
+            "avgsalesprice": "$1,243.26",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "148",
+            "totalsales": "$184,002.59",
+            "bids": "\u2013",
+            "datelastsold": "Apr 5, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 13\" A1278 2.5GHz Intel Core i5 8GB RAM 120GB SSD Mid 2012",
+            "avgsalesprice": "$131.22",
+            "avgshipping": "$59.47",
+            "freeshipping": "97% Free shipping",
+            "itemssold": "149",
+            "totalsales": "$19,552.00",
+            "bids": "\u2013",
+            "datelastsold": "Apr 10, 2024"
+        },
+        {
+            "title": "MacBook Pro 16\", MK1E3LL/A, M1 Pro , 32GBRam, 512GB SSD, Space Gray (New in Box)",
+            "avgsalesprice": "$1,320.64",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "215",
+            "totalsales": "$283,937.36",
+            "bids": "\u2013",
+            "datelastsold": "Apr 8, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro M1 14\" 8-core CPU 14-core GPU 2021 512GB SSD 16GB Ram Gray",
+            "avgsalesprice": "$1,172.57",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "107",
+            "totalsales": "$125,464.48",
+            "bids": "\u2013",
+            "datelastsold": "Apr 11, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro M1 Max 16\" 2021 10-Core CPU 32 GPU 1TB SSD 32GB Ram Gray",
+            "avgsalesprice": "$1,787.16",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "94",
+            "totalsales": "$167,993.14",
+            "bids": "\u2013",
+            "datelastsold": "Apr 11, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro 14\" M3 Chip 8GB RAM 512GB SSD Space Gray MTL73LL/A 2023 Model",
+            "avgsalesprice": "$1,281.07",
+            "avgshipping": "$59.84",
+            "freeshipping": "99% Free shipping",
+            "itemssold": "103",
+            "totalsales": "$131,950.44",
+            "bids": "\u2013",
+            "datelastsold": "Apr 12, 2024"
+        },
+        {
+            "title": "APPLE MACBOOK PRO A2141 2019 i7 2.6GHz 512GB 16GB Grade D",
+            "avgsalesprice": "$443.54",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "95",
+            "totalsales": "$42,136.19",
+            "bids": "\u2013",
+            "datelastsold": "Apr 6, 2024"
+        },
+        {
+            "title": "APPLE MACBOOK PRO A2141 2019 i7 2.6GHz 32GB 512GB *GRADE D*",
+            "avgsalesprice": "$497.74",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "100",
+            "totalsales": "$49,774.05",
+            "bids": "\u2013",
+            "datelastsold": "Apr 11, 2024"
+        },
+        {
+            "title": "MacBook Pro 2019 16 inch 2.6 GHz i7 32GB RAM 512GB SSD 5300M 4GB |  Very Good",
+            "avgsalesprice": "$627.86",
+            "avgshipping": "$38.56",
+            "freeshipping": "99% Free shipping",
+            "itemssold": "89",
+            "totalsales": "$55,879.52",
+            "bids": "\u2013",
+            "datelastsold": "Apr 11, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 15\" i7 Retina 1TB SSD 16GB 3.4Ghz Monterey - 3 Year Warranty",
+            "avgsalesprice": "$505.63",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "80",
+            "totalsales": "$40,450.00",
+            "bids": "\u2013",
+            "datelastsold": "Apr 12, 2024"
+        },
+        {
+            "title": "2015 Apple Macbook Pro 13\" Retina Core i5 2.7ghz - Choose Specs - SCREEN WEAR",
+            "avgsalesprice": "$138.63",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "125",
+            "totalsales": "$17,328.80",
+            "bids": "\u2013",
+            "datelastsold": "Mar 9, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 13.3\" Intel Core i5 2.4GHz, 8GB Ram , 500GB Hdd MacOS 10.13",
+            "avgsalesprice": "$104.36",
+            "avgshipping": "$32.36",
+            "freeshipping": "95% Free shipping",
+            "itemssold": "82",
+            "totalsales": "$8,557.50",
+            "bids": "\u2013",
+            "datelastsold": "Apr 11, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro A1990 (2019) 15\" i7 9.th 2.6GHz 16RAM 512 SSD TouchBar Silver",
+            "avgsalesprice": "$440.57",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "89",
+            "totalsales": "$39,210.72",
+            "bids": "\u2013",
+            "datelastsold": "Apr 12, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 14 In with M1 Pro Chip 202116GB RAM 512GB SSD Space Gray",
+            "avgsalesprice": "$1,233.39",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "91",
+            "totalsales": "$112,238.13",
+            "bids": "\u2013",
+            "datelastsold": "Mar 22, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 14\" M3 Pro Chip 18GB RAM 512GB SSD Space Black MRX33LL/A",
+            "avgsalesprice": "$1,732.07",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "70",
+            "totalsales": "$121,244.60",
+            "bids": "\u2013",
+            "datelastsold": "Apr 8, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 15\" 1TB SSD 16GB i7 3.40Ghz Retina - Big Sur - 3 Year Warranty",
+            "avgsalesprice": "$491.62",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "65",
+            "totalsales": "$31,955.00",
+            "bids": "\u2013",
+            "datelastsold": "Apr 11, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro 13\" Laptop i5 + 8GB RAM + 256GB SSD HD.  macOS High Sierra",
+            "avgsalesprice": "$178.16",
+            "avgshipping": "$51.90",
+            "freeshipping": "97% Free shipping",
+            "itemssold": "64",
+            "totalsales": "$11,402.00",
+            "bids": "\u2013",
+            "datelastsold": "Apr 9, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro 13 Laptop - UPGRADED i5 16GB RAM + 1TB SSD - MacOS - WARRANTY",
+            "avgsalesprice": "$210.00",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "63",
+            "totalsales": "$13,230.20",
+            "bids": "\u2013",
+            "datelastsold": "Apr 12, 2024"
+        },
+        {
+            "title": "13 Apple Macbook Pro Core i7 4.0GHz Turbo 512GB SSD 16GB A1706 TouchBar Warranty",
+            "avgsalesprice": "$526.80",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "59",
+            "totalsales": "$31,081.04",
+            "bids": "\u2013",
+            "datelastsold": "Apr 12, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 13 inch Laptop | 3 Year Warranty Turbo 500GB",
+            "avgsalesprice": "$181.04",
+            "avgshipping": "$25.00",
+            "freeshipping": "98% Free shipping",
+            "itemssold": "59",
+            "totalsales": "$10,681.50",
+            "bids": "\u2013",
+            "datelastsold": "Apr 3, 2024"
+        },
+        {
+            "title": "APPLE MACBOOK PRO 15 TOUCHBAR - CORE 3.6GHz i7 TURBO 16GB RAM 512GB SSD",
+            "avgsalesprice": "$571.14",
+            "avgshipping": "$25.00",
+            "freeshipping": "92% Free shipping",
+            "itemssold": "54",
+            "totalsales": "$30,841.74",
+            "bids": "\u2013",
+            "datelastsold": "Apr 8, 2024"
+        },
+        {
+            "title": "Apple MacBook M1 Pro 14\" 2021 1TB SSD 16GB RAM Space Gray MKGQ3LL/A",
+            "avgsalesprice": "$1,313.04",
+            "avgshipping": "$64.43",
+            "freeshipping": "98% Free shipping",
+            "itemssold": "83",
+            "totalsales": "$108,982.24",
+            "bids": "\u2013",
+            "datelastsold": "Apr 2, 2024"
+        },
+        {
+            "title": "Apple 13.3 MacBook Pro 1.4GHz 8GB RAM 512GB SSD Space Gray MXK52LL/A Very Good",
+            "avgsalesprice": "$567.78",
+            "avgshipping": "$32.95",
+            "freeshipping": "91% Free shipping",
+            "itemssold": "53",
+            "totalsales": "$30,092.35",
+            "bids": "\u2013",
+            "datelastsold": "Apr 8, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro Laptop + 16 GB RAM + 1 TB HD + 2 YR WARRANTY + OFFICE",
+            "avgsalesprice": "$186.20",
+            "avgshipping": "$42.27",
+            "freeshipping": "90% Free shipping",
+            "itemssold": "50",
+            "totalsales": "$9,310.00",
+            "bids": "\u2013",
+            "datelastsold": "Apr 8, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro 13\" Laptop - i5 8GB RAM + 128GB SSD | MacOS High Sierra",
+            "avgsalesprice": "$125.34",
+            "avgshipping": "$76.65",
+            "freeshipping": "98% Free shipping",
+            "itemssold": "51",
+            "totalsales": "$6,392.40",
+            "bids": "\u2013",
+            "datelastsold": "Apr 9, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 2020 13\" 2.3GHz i7 16GB  512GB SSD |  Space Gray | Very Good",
+            "avgsalesprice": "$585.76",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "48",
+            "totalsales": "$28,116.44",
+            "bids": "\u2013",
+            "datelastsold": "Apr 12, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro 13\" Laptop i5 + 8GB RAM + 180GB SSD HD. OS Catalina",
+            "avgsalesprice": "$136.57",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "74",
+            "totalsales": "$10,106.00",
+            "bids": "\u2013",
+            "datelastsold": "Apr 5, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro M1 14\" 10-core CPU 16-core GPU 2021 1TB SSD 16GB RAM Gray",
+            "avgsalesprice": "$1,305.73",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "45",
+            "totalsales": "$58,757.67",
+            "bids": "\u2013",
+            "datelastsold": "Apr 2, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro 13\"  i5 2.5 Ghz| UPGRADED 16GB RAM | 1 TB HD | MacOS Catalina",
+            "avgsalesprice": "$173.42",
+            "avgshipping": "$40.24",
+            "freeshipping": "95% Free shipping",
+            "itemssold": "43",
+            "totalsales": "$7,457.00",
+            "bids": "\u2013",
+            "datelastsold": "Mar 20, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 13.3 M2 Chip 8GB RAM 256GB SSD Space Gray MNEH3LL/A 2022 Model",
+            "avgsalesprice": "$855.36",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "44",
+            "totalsales": "$37,636.00",
+            "bids": "\u2013",
+            "datelastsold": "Apr 11, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro 13\" DUAL CORE i5 UPGRADED 16GB RAM - 1TB HD. Os Catalina",
+            "avgsalesprice": "$219.89",
+            "avgshipping": "$33.90",
+            "freeshipping": "98% Free shipping",
+            "itemssold": "44",
+            "totalsales": "$9,675.20",
+            "bids": "\u2013",
+            "datelastsold": "Apr 9, 2024"
+        },
+        {
+            "title": "Apple Macbook M1 Pro 16\" 2021 10-core CPU 16-core GPU 1TB SSD 16GB Ram Gray",
+            "avgsalesprice": "$1,408.76",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "46",
+            "totalsales": "$64,802.83",
+            "bids": "\u2013",
+            "datelastsold": "Apr 4, 2024"
+        },
+        {
+            "title": "Apple Macbook A1708 MacBook Pro i5-7360U 8GB 256GB SSD Monterey",
+            "avgsalesprice": "$250.43",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "69",
+            "totalsales": "$17,279.48",
+            "bids": "\u2013",
+            "datelastsold": "Apr 12, 2024"
+        },
+        {
+            "title": "Apple 2021 16 Inch M1 Pro Chip 16GB MacBook Pro Laptop Silver Certified Refurb",
+            "avgsalesprice": "$1,299.99",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "44",
+            "totalsales": "$57,199.56",
+            "bids": "\u2013",
+            "datelastsold": "Feb 13, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro 13.3\u201d 2.5GHz intel Core i5 16GB RAM 1TB HDD Turbo",
+            "avgsalesprice": "$244.24",
+            "avgshipping": "$59.85",
+            "freeshipping": "95% Free shipping",
+            "itemssold": "41",
+            "totalsales": "$10,013.65",
+            "bids": "\u2013",
+            "datelastsold": "Apr 12, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 13\u201d Dual Core i5 16GB RAM | 1TB HD | MacOS Catalina | WARRANTY",
+            "avgsalesprice": "$219.58",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "38",
+            "totalsales": "$8,344.00",
+            "bids": "\u2013",
+            "datelastsold": "Apr 10, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro 13  2.4GHZ A1989 Core I5-8569U 8GB Ram 256GB",
+            "avgsalesprice": "$297.13",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "70",
+            "totalsales": "$20,798.85",
+            "bids": "\u2013",
+            "datelastsold": "Mar 29, 2024"
+        },
+        {
+            "title": "2019 16\" MacBook 2.6 Ghz intel i7 | 32GB | 512GB SSD | AMD 5300M 4GB | \uf8ff",
+            "avgsalesprice": "$497.78",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "57",
+            "totalsales": "$28,373.64",
+            "bids": "\u2013",
+            "datelastsold": "Mar 18, 2024"
+        },
+        {
+            "title": "APPLE MACBOOK PRO 2019 13\" i5 2.4GHz 16GB 256GB A1989 Grade D",
+            "avgsalesprice": "$322.29",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "61",
+            "totalsales": "$19,659.85",
+            "bids": "\u2013",
+            "datelastsold": "Apr 8, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 16\" 16GB A2141 6-Core i7 Magic Keyboard - 512GB SSD - Warranty",
+            "avgsalesprice": "$743.06",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "36",
+            "totalsales": "$26,750.00",
+            "bids": "\u2013",
+            "datelastsold": "Apr 9, 2024"
+        },
+        {
+            "title": "APPLE MACBOOK PRO A2141 2019 i7 2.6GHz 32GB 512GB-GRADE C-LOW BATTERY HEALTH",
+            "avgsalesprice": "$524.99",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "40",
+            "totalsales": "$20,999.60",
+            "bids": "\u2013",
+            "datelastsold": "Mar 4, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 15\" 16GB i7 3.7Ghz - Retina 1TB SSD Monterey - 3 Year Warranty",
+            "avgsalesprice": "$517.53",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "34",
+            "totalsales": "$17,596.00",
+            "bids": "\u2013",
+            "datelastsold": "Apr 9, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 15 2015 | 2.8GHz i7 16GB 512GB Monterey + Warranty + Very Good",
+            "avgsalesprice": "$364.36",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "35",
+            "totalsales": "$12,752.49",
+            "bids": "\u2013",
+            "datelastsold": "Mar 23, 2024"
+        },
+        {
+            "title": "15\" MacBook Pro Touch Bar Silver 2017 2.9 i7 16GB 512GB SSD 560 Warranty + Good",
+            "avgsalesprice": "$462.53",
+            "avgshipping": "$61.09",
+            "freeshipping": "94% Free shipping",
+            "itemssold": "32",
+            "totalsales": "$14,800.95",
+            "bids": "\u2013",
+            "datelastsold": "Apr 12, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro Core i5 2.5GHz 8GB RAM 500GB HDD 13\" MD101LL/A - Very Good",
+            "avgsalesprice": "$255.62",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "31",
+            "totalsales": "$7,924.07",
+            "bids": "\u2013",
+            "datelastsold": "Apr 10, 2024"
+        },
+        {
+            "title": "Apple MacBook Pro 16\" M3 Pro chip 18GB RAM 512GB SSD Space Black MRW13LL/A 2023",
+            "avgsalesprice": "$2,064.63",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "32",
+            "totalsales": "$66,068.00",
+            "bids": "\u2013",
+            "datelastsold": "Apr 9, 2024"
+        },
+        {
+            "title": "Apple Macbook Pro Intel Core i5 1.4GHz 13\" 2020 256GB SSD 8GB Ram Space Gray",
+            "avgsalesprice": "$569.74",
+            "avgshipping": "$0.00",
+            "freeshipping": "100% Free shipping",
+            "itemssold": "36",
+            "totalsales": "$20,510.73",
+            "bids": "\u2013",
+            "datelastsold": "Apr 9, 2024"
+        }
+    ]
+}
