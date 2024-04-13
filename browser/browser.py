@@ -62,7 +62,7 @@ class BrowserInstance:
 
         return session
     
-    def launch_browser_for_login(self, url: str, browser_type="firefox", headless=True):
+    def launch_browser_for_login(self, url: str, browser_type="firefox", headless=False):
     # Create the context directory if it doesn't exist
         os.makedirs(os.path.join(self.PARENT_DIR, "context"), exist_ok=True)
 
@@ -93,7 +93,7 @@ class BrowserInstance:
 
             # Navigate to the login page
             page.goto(url)
-            print("Please log in and press Enter when finished.")
+            print("Please log in and press Enter here, when finished.")
             input() # Wait for user input
 
             # Close the browser context

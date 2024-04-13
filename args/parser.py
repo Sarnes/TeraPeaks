@@ -89,11 +89,12 @@ class Checker:
             return True
         
         def check_sorting_option(self,  post_status: str, sorting_option: str, order: str) -> bool:
-            options = list(SORTING_OPTIONS.get(post_status).keys())
-            if not sorting_option in options:
-                raise ValueError(f"The sorting option when in the {post_status} mode, must be one of these options:\n{', '.join(options)}")
-            if not order in ["HL", "LH"]:
-                raise ValueError("Order Options must be either\n \'HL' for Highest to Lowest\n\'LH\' for Lowest To Highest")
+            if sorting_option is not None:
+                options = list(SORTING_OPTIONS.get(post_status).keys())
+                if not sorting_option in options:
+                    raise ValueError(f"The sorting option when in the {post_status} mode, must be one of these options:\n{', '.join(options)}")
+                if not order in ["HL", "LH"]:
+                    raise ValueError("Order Options must be either\n \'HL' for Highest to Lowest\n\'LH\' for Lowest To Highest")
             return True
         
         def check_day_range(self, day_range, startDate, endDate):
@@ -130,15 +131,10 @@ class ArgParser:
                        sorting_option: str | None = None, 
                        sorting_order: str | None = None) -> str:
         sort = ""
-        if sorting_option is None:
-            if post_mode == "SOLD":
-                sort = "-itemssold"
-            elif post_mode == "ACTIVE":
-                sort = "-watchers"
-        else:
-            sort = SORTING_OPTIONS.get(post_mode).get(sorting_option)
-            if sorting_order == "HL":
-                sort = "-" + sort
+        sort = SORTING_OPTIONS.get(post_mode).get(sorting_option)
+        if sorting_order == "HL":
+            sort = "-" + sort
+        sort = f"&sorting={sort}"
         return sort
       
     def return_dates(self, day_range, start_date, end_date):
